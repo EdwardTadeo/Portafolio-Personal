@@ -30,7 +30,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Descargar CV
           </Button>
         </Row>
 
@@ -48,7 +48,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Descargar CV
           </Button>
         </Row>
       </Container>
