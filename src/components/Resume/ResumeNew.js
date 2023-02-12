@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/CV-TADEO ESPINOZA FRANK.pdf";
-import { AiOutlineDownload } from "react-icons/ai";
+import { FiDownload } from "react-icons/fi";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -29,8 +29,8 @@ function ResumeNew() {
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
-            <AiOutlineDownload />
-            &nbsp;Descargar CV
+            <FiDownload />
+            &nbsp;&nbsp;Descargar CV
           </Button>
         </Row>
 
@@ -47,8 +47,8 @@ function ResumeNew() {
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
-            <AiOutlineDownload />
-            &nbsp;Descargar CV
+            <FiDownload />
+            &nbsp;&nbsp;Descargar CV
           </Button>
         </Row>
       </Container>
